@@ -1,0 +1,12 @@
+service: project-management-tool-backend
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  hello:
+    handler: functions/handler.hello
+    events:
+      - http: GET hello

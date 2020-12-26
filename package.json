@@ -1,0 +1,28 @@
+{
+  "name": "project-management-tool-backend",
+  "version": "1.0.0",
+  "description": "Repository to hold the backend code of my project management application. The code is developed with Node.js as the main language, AWS as the cloud provider and following serverless best practices.",
+  "main": "index.js",
+  "scripts": {
+    "sls": "sls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardBargues/project-management-tool-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardBargues/project-management-tool-backend/issues"
+  },
+  "homepage": "https://github.com/EduardBargues/project-management-tool-backend#readme",
+  "devDependencies": {
+    "serverless": "^2.16.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.6.0"
+  }
+}
